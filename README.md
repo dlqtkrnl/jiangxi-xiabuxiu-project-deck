@@ -34,13 +34,9 @@ python -m http.server 8080
 
 1. 新建一个 GitHub 仓库
 2. 把本目录内所有文件上传到仓库根目录
-3. 进入 GitHub 仓库的 `Settings`
-4. 打开 `Pages`
-5. 在 `Build and deployment` 中选择：
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/ (root)`
-6. 保存后等待 GitHub 生成页面链接
+3. 推送后，仓库内置的 `.github/workflows/pages.yml` 会用于 GitHub Pages 部署
+4. 如 GitHub 首次要求确认 Pages 来源，请在仓库 `Settings > Pages` 中选择 `GitHub Actions`
+5. 等待 Actions 运行完成后，页面会出现在 GitHub Pages 链接上
 
 更详细的远程连接和发布说明见：
 

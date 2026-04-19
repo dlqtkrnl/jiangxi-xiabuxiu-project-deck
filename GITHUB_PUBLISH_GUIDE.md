@@ -46,15 +46,21 @@ git push -u origin main
 
 ## 四、GitHub Pages 设置
 
-上传完成后，在 GitHub 仓库页面中：
+本仓库已经包含 `.github/workflows/pages.yml`，推荐使用 GitHub Actions 部署。
 
-1. 打开 `Settings`
-2. 打开 `Pages`
-3. Source 选择 `Deploy from a branch`
-4. Branch 选择 `main`
-5. Folder 选择 `/ (root)`
+上传完成后：
 
-保存后等待几分钟，GitHub 会生成公开链接。
+1. 进入 GitHub 仓库
+2. 打开 `Settings`
+3. 打开 `Pages`
+4. 如果页面要求选择来源，选择 `GitHub Actions`
+5. 回到 `Actions` 页面，等待 `Deploy GitHub Pages` 工作流跑完
+
+公开地址通常会是：
+
+```text
+https://dlqtkrnl.github.io/jiangxi-xiabuxiu-project-deck/
+```
 
 ## 五、上线前最后建议
 
