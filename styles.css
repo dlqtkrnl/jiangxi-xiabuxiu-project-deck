@@ -394,15 +394,12 @@ p {
 
 .flow-track {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: stretch;
-  gap: 10px;
+  gap: 18px;
 }
 
 .four-step-flow {
-  grid-template-columns:
-    minmax(0, 1fr) auto minmax(0, 1fr) auto
-    minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flow-node {
@@ -414,6 +411,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  position: relative;
 }
 
 .featured-node {
@@ -454,21 +452,16 @@ p {
 .flow-node p {
   margin: 0;
   line-height: 1.72;
-  color: #43382c;
+  color: #3a3027;
   font-size: 1rem;
 }
 
 .featured-node p {
-  color: rgba(255, 244, 232, 0.92);
+  color: rgba(255, 244, 232, 0.98);
 }
 
 .flow-arrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--accent);
-  font-size: 1.32rem;
-  font-weight: 700;
+  display: none;
 }
 
 .flow-caption {
@@ -483,18 +476,34 @@ p {
 }
 
 .compact-flow {
-  grid-template-columns:
-    minmax(140px, 1fr) 18px minmax(140px, 1fr) 18px
-    minmax(140px, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .hero-flow-panel .flow-kicker {
   margin-bottom: 18px;
 }
 
+.flow-track .flow-node:not(:last-of-type)::after {
+  content: "→";
+  position: absolute;
+  top: 50%;
+  right: -22px;
+  transform: translateY(-50%);
+  color: var(--accent);
+  font-size: 1.38rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
 .hero-flow-panel .flow-caption {
   margin-top: 18px;
   color: #51463a;
+}
+
+@media (max-width: 1320px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .stat-card,
@@ -889,8 +898,16 @@ body[data-lang="ko"] .eyebrow {
   }
 
   .flow-arrow {
-    min-height: 18px;
-    transform: rotate(90deg);
+    display: none;
+  }
+
+  .flow-track .flow-node:not(:last-of-type)::after {
+    content: "↓";
+    top: auto;
+    bottom: -24px;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
