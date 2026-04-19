@@ -50,6 +50,15 @@ const translations = {
     statDuration: "完整训练周期",
     statOutcomeLead: "系列成果",
     statOutcome: "成果导向型培养",
+    heroFlowKicker: "项目核心结构",
+    heroFlow1Title: "工艺真实性",
+    heroFlow1Text: "先建立真实的工艺理解，而不是先定义视觉效果。",
+    heroFlow2Title: "设计转译",
+    heroFlow2Text: "把材料、针法与文化语义转化为当代服装语言。",
+    heroFlow3Title: "人才培养",
+    heroFlow3Text: "让学员在完整路径中学习，而不是只看到结果图像。",
+    heroFlowCaption:
+      "这次面谈更重要的是确认方法与协作关系，而不是展示某种已经定型的视觉风格。",
     welcomeQuote:
       "我们不是把夏布绣当作装饰符号，而是希望在真实工艺理解的基础上，把材料、针法与文化语义转译为当代服装设计语言。",
     noteWelcome:
@@ -70,6 +79,17 @@ const translations = {
       "很多面向“非遗”的设计项目，只停留在图案提取、形式拼贴或宣传陈列，缺少对工艺逻辑和文化语义的深入理解。",
     valuePara2:
       "我们这次希望建立的是一条从材料认知、样片试验、系列转译到成衣表达的完整路径，让教学、创作与研究真正连起来。",
+    methodFlowKicker: "研究与转译的基本顺序",
+    methodFlow1Title: "材料观察",
+    methodFlow1Text: "先理解夏布本身的结构、触感与使用语境。",
+    methodFlow2Title: "针法拆解",
+    methodFlow2Text: "把工艺语言拆解清楚，知道哪些部分不能被误读。",
+    methodFlow3Title: "样片验证",
+    methodFlow3Text: "通过小样试验判断转译是否真实、是否可做。",
+    methodFlow4Title: "系列表达",
+    methodFlow4Text: "最后才进入系列造型、结构语言与成果呈现。",
+    methodFlowCaption:
+      "我们希望先把研究顺序讲清楚，再讨论成果形式，这样更符合本次面谈的目的。",
     sourceImageAlt: "夏布绣来源图",
     sourceCaption: "来源图：从材料、纹样与工艺语汇出发，建立最初的观察与判断。",
     sampleImageAlt: "夏布绣样片图",
@@ -147,6 +167,17 @@ const translations = {
     modePrep2: "明确案例、材料、图纸和样片需求，减少临时沟通成本。",
     modePrep3: "对影像记录、署名方式和资料使用范围做书面确认。",
     modePrep4: "将合作方式、节奏与报酬安排尽量表达得清楚透明。",
+    collabFlowKicker: "面谈后更适合推进的合作流程",
+    collabFlow1Title: "确认方向",
+    collabFlow1Text: "先确认项目逻辑、合作边界与可参与内容。",
+    collabFlow2Title: "整理资料",
+    collabFlow2Text: "再把课程节点、需求与说明材料整理清楚。",
+    collabFlow3Title: "阶段参与",
+    collabFlow3Text: "在关键节点开展示范、样片指导与中期校核。",
+    collabFlow4Title: "形成成果",
+    collabFlow4Text: "最终沉淀课程、样片、作品与可复用的项目经验。",
+    collabFlowCaption:
+      "这样的合作节奏更容易让专家看到项目的真实结构，也更便于后续逐步推进。",
     garmentImageAlt: "夏布绣成衣系列案例图",
     garmentCaption:
       "成衣图：通过系列化成果检验前期研究是否真正转化为稳定、完整且可展示的服装语言。",
@@ -216,6 +247,15 @@ const translations = {
     statDuration: "전체 훈련 주기",
     statOutcomeLead: "시리즈 성과",
     statOutcome: "성과 지향형 양성",
+    heroFlowKicker: "프로젝트 핵심 구조",
+    heroFlow1Title: "공예의 진정성",
+    heroFlow1Text: "먼저 실제 공예 이해를 세우고, 시각 효과를 먼저 정하지 않습니다.",
+    heroFlow2Title: "디자인 전환",
+    heroFlow2Text: "재료, 침법, 문화적 의미를 동시대 패션 언어로 전환합니다.",
+    heroFlow3Title: "인재 양성",
+    heroFlow3Text: "학원들이 결과 이미지가 아니라 전체 경로 속에서 배우게 합니다.",
+    heroFlowCaption:
+      "이번 면담에서는 특정 스타일 이미지를 보여주는 것보다 방법과 협력 구조를 확인하는 일이 더 중요합니다.",
     welcomeQuote:
       "저희는 하포수를 단순한 장식 기호로 다루려는 것이 아니라, 실제 공예 이해를 바탕으로 재료, 침법, 문화적 의미를 현대 패션 언어로 전환하고자 합니다.",
     noteWelcome:
@@ -236,6 +276,17 @@ const translations = {
       "많은 '비유' 관련 디자인 프로젝트는 문양 추출이나 형식적 결합, 홍보 전시에 머물며 공예 논리와 문화적 의미에 대한 깊은 이해가 부족합니다.",
     valuePara2:
       "이번 프로젝트는 재료 인식, 샘플 실험, 시리즈 전환, 의상 표현을 하나의 완결된 경로로 연결해 교육과 창작, 연구가 실제로 맞물리게 하려는 시도입니다.",
+    methodFlowKicker: "연구와 전환의 기본 순서",
+    methodFlow1Title: "재료 관찰",
+    methodFlow1Text: "먼저 하포 자체의 구조, 촉감, 사용 맥락을 이해합니다.",
+    methodFlow2Title: "침법 해석",
+    methodFlow2Text: "공예 언어를 분해해 무엇이 왜곡되면 안 되는지 분명히 합니다.",
+    methodFlow3Title: "샘플 검증",
+    methodFlow3Text: "소규모 실험을 통해 전환이 실제로 가능한지, 진정성이 있는지 확인합니다.",
+    methodFlow4Title: "시리즈 표현",
+    methodFlow4Text: "그 다음에야 시리즈 실루엣, 구조 언어, 성과 제시로 넘어갑니다.",
+    methodFlowCaption:
+      "성과 형식을 먼저 정하기보다 연구 순서를 분명히 하는 것이 이번 면담 목적에 더 잘 맞습니다.",
     sourceImageAlt: "하포수 원천 이미지",
     sourceCaption:
       "원천 이미지: 재료, 문양, 공예 어휘에서 출발해 최초의 관찰과 판단을 세웁니다.",
@@ -316,6 +367,17 @@ const translations = {
     modePrep2: "사례, 재료, 도면, 샘플 요구를 분명히 해 임시 소통 비용을 줄입니다.",
     modePrep3: "촬영 기록, 표기 방식, 자료 사용 범위를 문서로 확인합니다.",
     modePrep4: "협력 방식, 일정, 사례를 가능한 한 투명하게 설명합니다.",
+    collabFlowKicker: "면담 후 더 적합한 협업 흐름",
+    collabFlow1Title: "방향 확인",
+    collabFlow1Text: "먼저 프로젝트 논리, 협력 경계, 참여 가능한 내용을 맞춥니다.",
+    collabFlow2Title: "자료 정리",
+    collabFlow2Text: "그 다음 수업 단계, 요구 사항, 설명 자료를 명확히 정리합니다.",
+    collabFlow3Title: "단계별 참여",
+    collabFlow3Text: "핵심 단계마다 시연, 샘플 지도, 중간 검토를 진행합니다.",
+    collabFlow4Title: "성과 축적",
+    collabFlow4Text: "최종적으로 수업, 샘플, 작품, 재사용 가능한 프로젝트 경험을 남깁니다.",
+    collabFlowCaption:
+      "이런 흐름이 전문가에게도 프로젝트의 실제 구조를 더 잘 보여주고, 이후 진행도 더 수월하게 합니다.",
     garmentImageAlt: "하포수 성과 의상 사례 이미지",
     garmentCaption:
       "의상 이미지: 시리즈 결과물을 통해 초기 연구가 실제로 안정적이고 완결된 패션 언어로 전환되었는지 검증합니다.",
@@ -386,6 +448,18 @@ const translations = {
     statDuration: "full training cycle",
     statOutcomeLead: "Series Output",
     statOutcome: "outcome-oriented training",
+    heroFlowKicker: "Core Project Structure",
+    heroFlow1Title: "Craft Authenticity",
+    heroFlow1Text:
+      "Build a real understanding of the craft first, rather than defining a visual effect in advance.",
+    heroFlow2Title: "Design Translation",
+    heroFlow2Text:
+      "Translate materials, stitch logic, and cultural meaning into a contemporary fashion language.",
+    heroFlow3Title: "Talent Development",
+    heroFlow3Text:
+      "Let trainees learn through the full process instead of seeing only final images.",
+    heroFlowCaption:
+      "For this meeting, it matters more to clarify method and collaboration structure than to show a pre-fixed visual style.",
     welcomeQuote:
       "We do not want to treat Xiabu embroidery as a decorative symbol. We want to translate its materials, stitch logic, and cultural meaning into a contemporary fashion language based on real craft understanding.",
     noteWelcome:
@@ -406,6 +480,21 @@ const translations = {
       "Many design projects around intangible heritage stop at motif extraction, formal collage, or display, without a deep understanding of craft logic and cultural meaning.",
     valuePara2:
       "This project aims to build a full path from material awareness to sample testing, series translation, and finished-garment expression so that teaching, creation, and research truly connect.",
+    methodFlowKicker: "Basic Sequence of Research and Translation",
+    methodFlow1Title: "Material Observation",
+    methodFlow1Text:
+      "First understand the structure, touch, and context of Xiabu fabric itself.",
+    methodFlow2Title: "Stitch Analysis",
+    methodFlow2Text:
+      "Break down the craft language clearly and identify what should not be misunderstood.",
+    methodFlow3Title: "Sample Validation",
+    methodFlow3Text:
+      "Use small studies to test whether the translation is both authentic and workable.",
+    methodFlow4Title: "Series Expression",
+    methodFlow4Text:
+      "Only then move into series silhouette, structural language, and final output.",
+    methodFlowCaption:
+      "Clarifying the research sequence is more useful for this meeting than showing a speculative final outcome.",
     sourceImageAlt: "Source image for Xiabu embroidery",
     sourceCaption:
       "Source reference: starting from materials, motifs, and craft vocabulary to build the first layer of observation and judgment.",
@@ -499,6 +588,21 @@ const translations = {
       "Confirm image documentation, crediting, and scope of material use in writing.",
     modePrep4:
       "Make the collaboration format, timeline, and compensation arrangement as transparent as possible.",
+    collabFlowKicker: "A More Suitable Collaboration Flow After This Meeting",
+    collabFlow1Title: "Align Direction",
+    collabFlow1Text:
+      "First align on project logic, collaboration boundaries, and feasible forms of participation.",
+    collabFlow2Title: "Prepare Materials",
+    collabFlow2Text:
+      "Then organize course stages, needs, and explanatory materials more clearly.",
+    collabFlow3Title: "Stage-Based Involvement",
+    collabFlow3Text:
+      "Carry out demonstrations, sample guidance, and mid-term review at key stages.",
+    collabFlow4Title: "Build Outcomes",
+    collabFlow4Text:
+      "Ultimately consolidate courses, samples, works, and reusable project experience.",
+    collabFlowCaption:
+      "This rhythm makes the project structure easier for experts to assess and easier to advance step by step.",
     garmentImageAlt: "Finished garment case image for Xiabu embroidery",
     garmentCaption:
       "Finished-garment example: using a series outcome to test whether the earlier research has truly become a stable, coherent, and presentable fashion language.",
