@@ -28,9 +28,8 @@ html {
 
 body {
   margin: 0;
-  font-family: "Pretendard Variable", "Pretendard", "Inter", "Noto Sans KR",
-    "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC",
-    "Microsoft YaHei", sans-serif;
+  font-family: "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC",
+    "Microsoft YaHei", "Inter", sans-serif;
   font-size: 16.5px;
   color: var(--ink);
   background:
@@ -40,6 +39,15 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+body[data-lang="ko"] {
+  font-family: "Pretendard Variable", "Pretendard", "Noto Sans KR",
+    "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+
+body[data-lang="en"] {
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 .texture {
@@ -110,6 +118,11 @@ body {
   letter-spacing: 0.08em;
 }
 
+body[data-lang="en"] .brand-kicker,
+body[data-lang="ko"] .brand-kicker {
+  letter-spacing: 0.04em;
+}
+
 .brand h1 {
   margin: 0;
   font-size: 1.14rem;
@@ -119,6 +132,40 @@ body {
 .topbar-actions {
   display: flex;
   gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px;
+  border: 1px solid rgba(113, 84, 44, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.lang-button {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition),
+    transform var(--transition);
+}
+
+.lang-button:hover {
+  color: var(--ink);
+}
+
+.lang-button.active {
+  background: rgba(127, 74, 45, 0.12);
+  color: var(--accent);
 }
 
 .ghost-button,
@@ -227,11 +274,20 @@ body {
 
 h2,
 h3 {
-  font-family: "Noto Serif KR", "Source Han Serif SC", "Noto Serif CJK SC",
-    "Georgia", "STSong", serif;
+  font-family: "Source Han Serif SC", "Noto Serif CJK SC", "STSong", serif;
   font-weight: 700;
   line-height: 1.22;
   margin: 0;
+}
+
+body[data-lang="ko"] h2,
+body[data-lang="ko"] h3 {
+  font-family: "Noto Serif KR", "KoPub Batang", "AppleMyungjo", serif;
+}
+
+body[data-lang="en"] h2,
+body[data-lang="en"] h3 {
+  font-family: "Georgia", "Iowan Old Style", "Times New Roman", serif;
 }
 
 h2 {
@@ -405,9 +461,16 @@ p {
 .quote-band p {
   margin: 0;
   font-size: 1.15rem;
-  font-family: "Noto Serif KR", "Source Han Serif SC", "Noto Serif CJK SC",
-    "Georgia", serif;
+  font-family: "Source Han Serif SC", "Noto Serif CJK SC", "STSong", serif;
   color: var(--ink);
+}
+
+body[data-lang="ko"] .quote-band p {
+  font-family: "Noto Serif KR", "KoPub Batang", "AppleMyungjo", serif;
+}
+
+body[data-lang="en"] .quote-band p {
+  font-family: "Georgia", "Iowan Old Style", "Times New Roman", serif;
 }
 
 .two-column,
@@ -630,6 +693,27 @@ body.notes-on .speaker-note {
   border-color: rgba(143, 75, 44, 0.28);
 }
 
+body[data-lang="en"] h2 {
+  max-width: 20ch;
+}
+
+body[data-lang="ko"] h2 {
+  max-width: 18ch;
+}
+
+body[data-lang="en"] .hero-title {
+  max-width: 18ch;
+}
+
+body[data-lang="ko"] .hero-title {
+  max-width: 15ch;
+}
+
+body[data-lang="en"] .eyebrow,
+body[data-lang="ko"] .eyebrow {
+  letter-spacing: 0.06em;
+}
+
 @media (max-width: 1200px) {
   :root {
     --side-w: 182px;
@@ -678,7 +762,7 @@ body.notes-on .speaker-note {
 
 @media (max-width: 640px) {
   :root {
-    --topbar-h: 76px;
+    --topbar-h: 82px;
   }
 
   .brand-mark {
@@ -693,7 +777,22 @@ body.notes-on .speaker-note {
   }
 
   .topbar-actions {
+    display: flex;
+    gap: 8px;
+  }
+
+  #toggleNotes,
+  #fullscreenButton {
     display: none;
+  }
+
+  .language-switch {
+    margin-left: auto;
+  }
+
+  .lang-button {
+    padding: 7px 10px;
+    font-size: 0.82rem;
   }
 
   .slide {

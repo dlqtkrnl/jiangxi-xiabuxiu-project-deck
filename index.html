@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>夏布绣项目面谈展示</title>
     <meta
+      id="metaDescription"
       name="description"
-      content="江西夏布绣数字化转译与当代系列服装设计人才培训 - 与南昌非遗研究保护中心面谈展示"
+      content="江西夏布绣数字化转译与当代系列服装设计人才培训 - 与南昌非遗研究保护中心交流展示"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260420b" />
+    <link rel="stylesheet" href="./styles.css?v=20260420c" />
   </head>
-  <body>
+  <body data-lang="zh">
     <div class="texture texture-a" aria-hidden="true"></div>
     <div class="texture texture-b" aria-hidden="true"></div>
 
@@ -18,363 +19,434 @@
       <div class="brand">
         <span class="brand-mark">XIABU</span>
         <div>
-          <p class="brand-kicker">전문가 면담 · Expert Meeting</p>
-          <h1>江西夏布绣项目合作提案</h1>
+          <p class="brand-kicker" data-i18n="brandKicker">专家面谈展示</p>
+          <h1 data-i18n="brandTitle">江西夏布绣项目合作提案</h1>
         </div>
       </div>
 
       <div class="topbar-actions">
-        <button class="ghost-button" id="toggleNotes" type="button">노트 Notes</button>
-        <button class="ghost-button" id="fullscreenButton" type="button">전체화면 Fullscreen</button>
+        <div
+          class="language-switch"
+          id="languageSwitch"
+          role="group"
+          aria-label="语言切换"
+        >
+          <button class="lang-button active" type="button" data-lang="zh">中文</button>
+          <button class="lang-button" type="button" data-lang="ko">한국어</button>
+          <button class="lang-button" type="button" data-lang="en">EN</button>
+        </div>
+        <button class="ghost-button" id="toggleNotes" type="button">演讲备注</button>
+        <button class="ghost-button" id="fullscreenButton" type="button">全屏</button>
       </div>
     </header>
 
-    <aside class="side-nav" aria-label="页面导航">
-      <a href="#welcome" class="nav-link active" data-target="welcome">01 开场</a>
-      <a href="#value" class="nav-link" data-target="value">02 为什么是夏布绣</a>
-      <a href="#timing" class="nav-link" data-target="timing">03 为什么现在做</a>
-      <a href="#path" class="nav-link" data-target="path">04 项目路径</a>
-      <a href="#role" class="nav-link" data-target="role">05 邀请您参与</a>
-      <a href="#mode" class="nav-link" data-target="mode">06 参与方式</a>
-      <a href="#principles" class="nav-link" data-target="principles">07 合作原则</a>
-      <a href="#next" class="nav-link" data-target="next">08 今天想确认</a>
+    <aside class="side-nav" id="sideNav" aria-label="页面导航">
+      <a href="#welcome" class="nav-link active" data-target="welcome" data-i18n="navWelcome">01 开场</a>
+      <a href="#value" class="nav-link" data-target="value" data-i18n="navValue">02 为什么是夏布绣</a>
+      <a href="#timing" class="nav-link" data-target="timing" data-i18n="navTiming">03 为什么是现在</a>
+      <a href="#path" class="nav-link" data-target="path" data-i18n="navPath">04 项目路径</a>
+      <a href="#role" class="nav-link" data-target="role" data-i18n="navRole">05 邀请您参与</a>
+      <a href="#mode" class="nav-link" data-target="mode" data-i18n="navMode">06 参与方式</a>
+      <a
+        href="#principles"
+        class="nav-link"
+        data-target="principles"
+        data-i18n="navPrinciples"
+      >
+        07 合作原则
+      </a>
+      <a href="#next" class="nav-link" data-target="next" data-i18n="navNext">08 今天确认什么</a>
     </aside>
 
     <main id="deck">
-      <section class="slide hero-slide" id="welcome" data-title="01 开场">
+      <section class="slide hero-slide" id="welcome">
         <div class="slide-inner">
-          <p class="eyebrow">与夏布绣工艺专家面谈提案</p>
+          <p class="eyebrow" data-i18n="welcomeEyebrow">国家艺术基金项目交流</p>
           <div class="hero-grid">
             <div>
-              <h2 class="hero-title">江西夏布绣数字化转译与当代系列服装设计人才培训</h2>
-              <p class="hero-copy">
-                我们希望邀请<span>来自南昌非遗研究保护中心的专家</span>以外部工艺导师的身份，共同参与这一项以工艺真实性、设计转译和青年人才培养为核心的项目。
+              <h2 class="hero-title" data-i18n="welcomeTitle">
+                江西夏布绣数字化转译与当代系列服装设计人才培训
+              </h2>
+              <p class="hero-copy" data-i18n-html="welcomeCopy">
+                我们希望邀请来自南昌非遗研究保护中心的专家以外部工艺导师的身份，共同参与这一项以工艺真实性、设计转译和青年人才培养为核心的项目。
               </p>
 
               <div class="hero-meta">
-                <span>申报单位：江西服装学院</span>
-                <span>项目负责人：李允耕</span>
-                <span>交流机构：南昌非遗研究保护中心</span>
-                <span>周期：2027.03 - 2028.06</span>
+                <span data-i18n="heroMetaOrg">申报单位：江西服装学院</span>
+                <span data-i18n="heroMetaLead">项目负责人：李允耕</span>
+                <span data-i18n="heroMetaPartner">交流机构：南昌非遗研究保护中心</span>
+                <span data-i18n="heroMetaPeriod">周期：2027.03 - 2028.06</span>
               </div>
             </div>
 
             <div class="hero-visual-stack">
               <div class="image-frame hero-image-frame">
-                <img src="./assets/cases/case-overview.jpeg" alt="案例综合图：来源样本、结构实验与成衣效果" />
+                <img
+                  src="./assets/cases/case-overview.jpeg"
+                  alt="夏布绣相关案例综合图"
+                  data-i18n-key="overviewImageAlt"
+                  data-i18n-attr="alt"
+                />
               </div>
 
               <div class="hero-cards">
                 <article class="stat-card">
                   <strong>30</strong>
-                  <span>青年设计人才</span>
+                  <span data-i18n="statStudents">30名学员</span>
                 </article>
                 <article class="stat-card">
                   <strong>45天</strong>
-                  <span>集中培训</span>
+                  <span data-i18n="statBootcamp">集中授课</span>
                 </article>
                 <article class="stat-card">
                   <strong>90天</strong>
-                  <span>训练总周期</span>
+                  <span data-i18n="statDuration">完整训练周期</span>
                 </article>
                 <article class="stat-card">
-                  <strong>作品导向</strong>
-                  <span>出作品、出人才、出案例</span>
+                  <strong data-i18n="statOutcomeLead">系列成果</strong>
+                  <span data-i18n="statOutcome">成果导向型培养</span>
                 </article>
               </div>
             </div>
           </div>
 
           <div class="quote-band">
-            <p>这不是“把几个纹样放到衣服上”，而是把夏布的布性、针法、材料逻辑与文化语义真正转化为当代系列服装语言。</p>
+            <p data-i18n="welcomeQuote">
+              我们不是把夏布绣当作装饰符号，而是希望在真实工艺理解的基础上，把材料、针法与文化语义转译为当代服装设计语言。
+            </p>
           </div>
 
-          <div class="speaker-note">
-            提示：
-            开场先讲“今天来是请教，不是催手续”。语气放稳，先说尊重，再说项目。
+          <div class="speaker-note" data-i18n="noteWelcome">
+            开场先说明项目性质、合作目标和尊重态度，再进入具体邀请内容。
           </div>
         </div>
       </section>
 
-      <section class="slide" id="value" data-title="02 为什么是夏布绣">
+      <section class="slide" id="value">
         <div class="slide-inner">
-          <p class="eyebrow">项目基础</p>
-          <h2>为什么是夏布绣，而不是一般刺绣元素</h2>
+          <p class="eyebrow" data-i18n="valueEyebrow">项目价值</p>
+          <h2 data-i18n="valueTitle">为什么是夏布绣，而不是一般的“非遗元素”</h2>
 
           <div class="two-column">
             <div class="content-card">
-              <h3>夏布绣的独特价值</h3>
+              <h3 data-i18n="valueCard1Title">夏布绣的独特价值</h3>
               <ul class="feature-list">
-                <li>“绣地即夏布”，材料属性本身就是语言的一部分。</li>
-                <li>天然经纬肌理、麻质触感与刺绣层次共同构成视觉气质。</li>
-                <li>既可转化为局部纹样，也可延展为结构、面料、节奏与系列叙事。</li>
-                <li>具有江西地域辨识度，也具备进入当代服装体系的独特优势。</li>
+                <li data-i18n="valueList1">
+                  它同时包含材料肌理、针法逻辑与地域生活文化，不只是视觉图案。
+                </li>
+                <li data-i18n="valueList2">
+                  夏布与刺绣之间的关系，天然适合连接纺织工艺研究与服装语言转译。
+                </li>
+                <li data-i18n="valueList3">
+                  它能够帮助学员理解“工艺如何进入系列设计”，而不是停留在表面借用。
+                </li>
+                <li data-i18n="valueList4">
+                  它也使项目更有机会形成既扎根地方又能面向当代的成果。
+                </li>
               </ul>
             </div>
 
             <div class="content-card accent-card">
-              <h3>项目最看重的不是“图样”</h3>
-              <p>
-                更重要的是夏布的布性、针法的节奏、样布的判断、留白的分寸，以及哪些表达真正符合夏布绣的工艺逻辑。
+              <h3 data-i18n="valueCard2Title">项目真正想解决的问题</h3>
+              <p data-i18n="valuePara1">
+                很多面向“非遗”的设计项目，只停留在图案提取、形式拼贴或宣传陈列，缺少对工艺逻辑和文化语义的深入理解。
               </p>
-              <p>
-                这些内容无法只靠资料整理完成，必须由真正熟悉工艺的人来带、来校核、来把关。
+              <p data-i18n="valuePara2">
+                我们这次希望建立的是一条从材料认知、样片试验、系列转译到成衣表达的完整路径，让教学、创作与研究真正连起来。
               </p>
             </div>
           </div>
 
           <div class="image-row two-images">
             <figure class="image-frame">
-              <img src="./assets/cases/case-source-qingtou.jpeg" alt="轻透方向的来源图：夏布材料与基础语汇细节" />
-              <figcaption>来源图：从夏布材质、纤维肌理与基础语汇出发，先建立可被理解的工艺起点。</figcaption>
+              <img
+                src="./assets/cases/case-source-qingtou.jpeg"
+                alt="夏布绣来源图"
+                data-i18n-key="sourceImageAlt"
+                data-i18n-attr="alt"
+              />
+              <figcaption data-i18n="sourceCaption">
+                来源图：从材料、纹样与工艺语汇出发，建立最初的观察与判断。
+              </figcaption>
             </figure>
             <figure class="image-frame">
-              <img src="./assets/cases/case-sample-qingtou.jpeg" alt="轻透方向的样片图：结构与材料实验" />
-              <figcaption>样片图：将语汇转成实验性样片，观察结构、留白和材料关系是否成立。</figcaption>
+              <img
+                src="./assets/cases/case-sample-qingtou.jpeg"
+                alt="夏布绣样片图"
+                data-i18n-key="sampleImageAlt"
+                data-i18n-attr="alt"
+              />
+              <figcaption data-i18n="sampleCaption">
+                样片图：通过针法、肌理与局部试样，验证转译的方向是否成立。
+              </figcaption>
             </figure>
           </div>
 
-          <div class="speaker-note">
-            提示：
-            这里不要讲太多技术词。重点讲“材料 + 针法 + 留白 + 气质”，让对方感觉你理解的不是表层图案。
+          <div class="speaker-note" data-i18n="noteValue">
+            这一页重点是让对方看到，我们重视的是完整工艺链，而不是单纯做“元素提取”。
           </div>
         </div>
       </section>
 
-      <section class="slide" id="timing" data-title="03 为什么现在做">
+      <section class="slide" id="timing">
         <div class="slide-inner">
-          <p class="eyebrow">现实问题</p>
-          <h2>为什么现在需要做这个项目</h2>
+          <p class="eyebrow" data-i18n="timingEyebrow">当下判断</p>
+          <h2 data-i18n="timingTitle">为什么是现在，决定了项目能否成立</h2>
 
-          <div class="identity-banner">
+          <div class="identity-banner" data-i18n="identityBanner">
             本次交流机构：南昌非遗研究保护中心
           </div>
 
           <div class="problem-solution">
             <article class="content-card problem-card">
-              <h3>目前常见问题</h3>
+              <h3 data-i18n="problemTitle">当前常见的问题</h3>
               <ul class="feature-list compact">
-                <li>服装应用多停留在元素借用、局部拼接和装饰化呈现。</li>
-                <li>数字化尝试多偏向图像更新、展示传播，缺少稳定流程。</li>
-                <li>年轻设计者往往会“看见图样”，却未真正理解工艺和材料。</li>
-                <li>缺少围绕具体作品产出的训练机制。</li>
+                <li data-i18n="problem1">年轻设计者接触到的多是图像资料，缺少现场工艺判断。</li>
+                <li data-i18n="problem2">许多项目过早追求成品展示，忽略了材料试验和工艺验证。</li>
+                <li data-i18n="problem3">数字化表达常被误解为替代人工，而不是辅助研究与记录。</li>
+                <li data-i18n="problem4">如果没有一线专家把关，项目很容易在文化表达上跑偏。</li>
               </ul>
             </article>
 
             <article class="content-card solution-card">
-              <h3>本项目的回应</h3>
+              <h3 data-i18n="solutionTitle">我们的应对方式</h3>
               <ul class="feature-list compact">
-                <li>先做工艺示范与材料实验，再进入设计转译。</li>
-                <li>把夏布绣从“保护型资源”转化为“可教学、可创作的设计资源”。</li>
-                <li>通过项目制训练，让学员最终形成系列服装成果。</li>
-                <li>建立可复制的创作型人才培养路径。</li>
+                <li data-i18n="solution1">把工艺真实性放在项目起点，而不是放在最后修正。</li>
+                <li data-i18n="solution2">先做材料观察与样片试验，再进入设计语言和系列结构。</li>
+                <li data-i18n="solution3">让外部工艺导师在关键节点上提出校核意见。</li>
+                <li data-i18n="solution4">把数字工具明确定位为辅助研究、记录和表达的工具。</li>
               </ul>
             </article>
           </div>
 
-          <div class="speaker-note">
-            提示：
-            如果对方问“是不是为了申报而申报”，这里就强调：项目是为了解决“现在年轻人不会正确转化”的问题。
+          <div class="speaker-note" data-i18n="noteTiming">
+            这部分要传达的是：我们已经意识到风险，也已经为真实性和专业性预留了结构。
           </div>
         </div>
       </section>
 
-      <section class="slide" id="path" data-title="04 项目路径">
+      <section class="slide" id="path">
         <div class="slide-inner">
-          <p class="eyebrow">实施逻辑</p>
-          <h2>项目如何展开</h2>
+          <p class="eyebrow" data-i18n="pathEyebrow">实施路径</p>
+          <h2 data-i18n="pathTitle">项目将如何推进</h2>
 
           <div class="path-grid">
             <article class="path-card">
               <span>01</span>
-              <h3>资源识别</h3>
-              <p>整理纹样、针法、样布、题材、文化语义与图像样本。</p>
+              <h3 data-i18n="path1Title">田野调研</h3>
+              <p data-i18n="path1Text">
+                进入相关地区与工艺现场，建立材料、工艺与文化语境的第一手认知。
+              </p>
             </article>
             <article class="path-card highlighted">
               <span>02</span>
-              <h3>工艺示范与材料实验</h3>
-              <p>这是最关键的前端环节，也是最需要外部工艺导师参与把关的部分。</p>
+              <h3 data-i18n="path2Title">工艺示范与样片试验</h3>
+              <p data-i18n="path2Text">
+                通过工艺示范与小样验证，明确哪些转译方式真实可行，哪些表达需要调整。
+              </p>
             </article>
             <article class="path-card">
               <span>03</span>
-              <h3>语汇提炼</h3>
-              <p>把材料肌理、针法节奏与文化意象整理为可用于设计的语汇。</p>
+              <h3 data-i18n="path3Title">材料研究</h3>
+              <p data-i18n="path3Text">
+                将夏布、刺绣、结构与版型放在同一语境里，形成更稳定的设计判断。
+              </p>
             </article>
             <article class="path-card">
               <span>04</span>
-              <h3>设计转译</h3>
-              <p>进入主题叙事、概念板、廓形、材料适配与系列构思。</p>
+              <h3 data-i18n="path4Title">课程训练</h3>
+              <p data-i18n="path4Text">
+                把研究所得转化为可教学、可复盘、可迭代的训练模块。
+              </p>
             </article>
             <article class="path-card">
               <span>05</span>
-              <h3>数字验证</h3>
-              <p>用 AIGC / LLM / CLO 3D 进行比较、测试和展示验证，但不代替工艺判断。</p>
+              <h3 data-i18n="path5Title">数字化辅助转译</h3>
+              <p data-i18n="path5Text">
+                使用 AIGC、LLM 与 CLO 3D 等工具辅助记录、分析与方案演示，而不替代手工判断。
+              </p>
             </article>
             <article class="path-card">
               <span>06</span>
-              <h3>成果展示与评图</h3>
-              <p>形成系列服装、数字样衣、动态展示，并通过评图沉淀案例。</p>
+              <h3 data-i18n="path6Title">系列成衣成果</h3>
+              <p data-i18n="path6Text">
+                最终形成能够代表训练成果与研究深度的系列服装作品和教学资料。
+              </p>
             </article>
           </div>
 
           <div class="timeline-strip">
-            <span>2027.06 - 2027.08 田野与资源采集</span>
-            <span>2027.09 - 2027.11 集中培训与立项</span>
-            <span>2027.12 - 2028.03 成果深化与孵化</span>
-            <span>2028.04 - 2028.06 汇报与结项</span>
+            <span data-i18n="timeline1">2027.06 - 2027.08 前期调研与课程筹备</span>
+            <span data-i18n="timeline2">2027.09 - 2027.11 集中训练与样片推进</span>
+            <span data-i18n="timeline3">2027.12 - 2028.03 系列设计与中期评核</span>
+            <span data-i18n="timeline4">2028.04 - 2028.06 成果整合与展示输出</span>
           </div>
         </div>
       </section>
 
-      <section class="slide" id="role" data-title="05 邀请您参与">
+      <section class="slide" id="role">
         <div class="slide-inner">
-          <p class="eyebrow">合作角色</p>
-          <h2>我们希望邀请来自南昌非遗研究保护中心的专家担任：外部工艺导师</h2>
+          <p class="eyebrow" data-i18n="roleEyebrow">合作角色</p>
+          <h2 data-i18n="roleTitle">
+            我们希望邀请来自南昌非遗研究保护中心的专家担任：外部工艺导师
+          </h2>
 
           <div class="role-layout">
             <article class="content-card role-card">
-              <h3>核心任务</h3>
+              <h3 data-i18n="roleCardTitle">主要职责</h3>
               <ul class="feature-list">
-                <li>夏布绣工艺示范</li>
-                <li>样布识别与样布指导</li>
-                <li>针法讲授与工作坊教学</li>
-                <li>文化真实性与工艺逻辑校核</li>
-                <li>必要时参与开题讨论 / 中期评图 / 结业答辩</li>
+                <li data-i18n="role1">夏布绣工艺示范</li>
+                <li data-i18n="role2">关键针法与样片指导</li>
+                <li data-i18n="role3">项目阶段性校核与建议</li>
+                <li data-i18n="role4">文化语义与工艺边界判断</li>
+                <li data-i18n="role5">必要时参与中期评图与成果讨论</li>
               </ul>
             </article>
 
             <article class="content-card commitment-card">
-              <h3>我们希望得到的不是“挂名”</h3>
-              <p>
+              <h3 data-i18n="commitTitle">我们真正需要的不是“挂名”</h3>
+              <p data-i18n="commitPara1">
                 我们真正需要的是来自非遗研究与保护一线的判断：哪些理解是准确的，哪些表达会跑偏，哪些材料和工艺搭配才真正成立。
               </p>
-              <p>
+              <p data-i18n="commitPara2">
                 这份参与的价值，不在于形式，而在于让项目站得住、作品做得稳、学员学得真。
               </p>
             </article>
           </div>
 
-          <div class="speaker-note">
-            提示：
-            这里可以停一下，看对方反应。如果对方表情积极，顺势转到参与方式；如果谨慎，就先强调“不是长期占用很多时间”。
+          <div class="speaker-note" data-i18n="noteRole">
+            这一页说清楚“需要什么帮助”，也同时说明“不会只借用名字”。
           </div>
         </div>
       </section>
 
-      <section class="slide" id="mode" data-title="06 参与方式">
+      <section class="slide" id="mode">
         <div class="slide-inner">
-          <p class="eyebrow">执行方式</p>
-          <h2>我们设想的参与方式</h2>
+          <p class="eyebrow" data-i18n="modeEyebrow">参与方式</p>
+          <h2 data-i18n="modeTitle">我们希望以怎样的方式合作</h2>
 
           <div class="two-column">
             <article class="content-card">
-              <h3>优先参与环节</h3>
+              <h3 data-i18n="modeLeftTitle">建议的参与节奏</h3>
               <div class="mini-timeline">
                 <div>
-                  <strong>田野阶段</strong>
-                  <p>新余相关点位、样本采集、口述访谈、工艺观察</p>
+                  <strong data-i18n="modePhase1Title">前期沟通</strong>
+                  <p data-i18n="modePhase1Text">
+                    先确认方向、合作边界与可参与的内容，再安排正式资料与日程。
+                  </p>
                 </div>
                 <div>
-                  <strong>集中培训第3周</strong>
-                  <p>工艺示范、针法逻辑、样布识别、材料实验工作坊</p>
+                  <strong data-i18n="modePhase2Title">集中训练阶段</strong>
+                  <p data-i18n="modePhase2Text">
+                    以工艺示范、样片指导和关键节点讨论为主，不占用过多零碎时间。
+                  </p>
                 </div>
                 <div>
-                  <strong>项目深化阶段</strong>
-                  <p>围绕重点小组进行文化校核与阶段性评议</p>
+                  <strong data-i18n="modePhase3Title">中期与成果阶段</strong>
+                  <p data-i18n="modePhase3Text">
+                    对阶段成果做方向判断与修正建议，帮助项目避免偏离初衷。
+                  </p>
                 </div>
               </div>
             </article>
 
             <article class="content-card">
-              <h3>我们会怎么配合您</h3>
+              <h3 data-i18n="modeRightTitle">我们会提前准备什么</h3>
               <ul class="feature-list">
-                <li>先沟通参与范围，再确定时间、学时和形式。</li>
-                <li>尽量集中安排，不无序占用您的时间。</li>
-                <li>拍摄、录像、归档和署名范围都会事先说清。</li>
-                <li>正式意向函和协议会按您的身份与工作方式调整表述。</li>
+                <li data-i18n="modePrep1">提前整理项目简介、课程安排和拟参与节点。</li>
+                <li data-i18n="modePrep2">明确案例、材料、图纸和样片需求，减少临时沟通成本。</li>
+                <li data-i18n="modePrep3">对影像记录、署名方式和资料使用范围做书面确认。</li>
+                <li data-i18n="modePrep4">将合作方式、节奏与报酬安排尽量表达得清楚透明。</li>
               </ul>
             </article>
           </div>
 
           <figure class="image-frame wide-frame">
-            <img src="./assets/cases/case-garment-qingtou.jpeg" alt="轻透方向的成衣图：从来源与样片转化到成衣结果" />
-            <figcaption>成衣图：从来源图与样片逐步走向成衣表达，体现“资源识别—实验—转译—结果”的完整路径。</figcaption>
+            <img
+              src="./assets/cases/case-garment-qingtou.jpeg"
+              alt="夏布绣成衣系列案例图"
+              data-i18n-key="garmentImageAlt"
+              data-i18n-attr="alt"
+            />
+            <figcaption data-i18n="garmentCaption">
+              成衣图：通过系列化成果检验前期研究是否真正转化为稳定、完整且可展示的服装语言。
+            </figcaption>
           </figure>
         </div>
       </section>
 
-      <section class="slide" id="principles" data-title="07 合作原则">
+      <section class="slide" id="principles">
         <div class="slide-inner">
-          <p class="eyebrow">合作边界</p>
-          <h2>我们希望建立的合作原则</h2>
+          <p class="eyebrow" data-i18n="principlesEyebrow">合作原则</p>
+          <h2 data-i18n="principlesTitle">我们希望把这次合作建立在以下共识上</h2>
 
           <div class="principles-grid">
             <article class="principle-card">
-              <h3>工艺优先</h3>
-              <p>先理解夏布与针法，再进入设计表达。</p>
+              <h3 data-i18n="principle1Title">工艺真实性</h3>
+              <p data-i18n="principle1Text">不把关键工艺判断简化为图像模仿或装饰借用。</p>
             </article>
             <article class="principle-card">
-              <h3>文化准确</h3>
-              <p>避免误读、浅化、拼贴式转化。</p>
+              <h3 data-i18n="principle2Title">文化尊重</h3>
+              <p data-i18n="principle2Text">不脱离语境地消费地方工艺，而是在理解中转译。</p>
             </article>
             <article class="principle-card">
-              <h3>数字辅助</h3>
-              <p>数字工具只做辅助，不替代工艺判断。</p>
+              <h3 data-i18n="principle3Title">署名与权益</h3>
+              <p data-i18n="principle3Text">对参与方式、署名、资料使用与成果展示保持清晰约定。</p>
             </article>
             <article class="principle-card">
-              <h3>边界清楚</h3>
-              <p>时间、资料使用、拍摄范围和署名方式均明确约定。</p>
+              <h3 data-i18n="principle4Title">沟通节奏</h3>
+              <p data-i18n="principle4Text">尽量减少无效打扰，把每次沟通都准备得更充分。</p>
             </article>
           </div>
 
           <div class="banner-note">
-            <strong>我们尤其重视：</strong>
-            项目中的 AIGC / LLM / CLO 3D 只用于主题梳理、方案比较、数字样衣与展示验证，真正涉及工艺真实性与文化边界的部分，必须以您的判断为准。
+            <strong data-i18n="bannerStrong">我们对数字工具的态度：</strong>
+            <span data-i18n="bannerText">
+              项目会使用 AIGC、LLM 与 CLO 3D 等工具做辅助研究、记录和展示，但人工判断与工艺真实性始终优先。
+            </span>
           </div>
 
-          <div class="speaker-note">
-            提示：
-            如果对方对 AI 有顾虑，这一页就是重点。要说清楚“数字工具是辅助，不是替代，也不是偷懒”。
+          <div class="speaker-note" data-i18n="notePrinciples">
+            这一页的作用是降低顾虑，让对方知道我们重视的是尊重、边界和长期合作感。
           </div>
         </div>
       </section>
 
-      <section class="slide final-slide" id="next" data-title="08 今天想确认">
+      <section class="slide final-slide" id="next">
         <div class="slide-inner">
-          <p class="eyebrow">面谈目标</p>
-          <h2>今天我们最想确认四件事</h2>
+          <p class="eyebrow" data-i18n="nextEyebrow">今天重点</p>
+          <h2 data-i18n="nextTitle">今天我们最想确认的四件事</h2>
 
           <div class="check-grid">
             <article class="check-card">
               <span>01</span>
-              <p>您是否认可这个项目整体方向</p>
+              <p data-i18n="check1">您是否认可这个项目的总体方向与合作逻辑。</p>
             </article>
             <article class="check-card">
               <span>02</span>
-              <p>您是否愿意以外部工艺导师身份继续沟通</p>
+              <p data-i18n="check2">您认为哪些工艺内容最值得作为核心教学与转译起点。</p>
             </article>
             <article class="check-card">
               <span>03</span>
-              <p>您更适合参与哪些具体环节</p>
+              <p data-i18n="check3">您更适合以怎样的方式参与和提供指导。</p>
             </article>
             <article class="check-card">
               <span>04</span>
-              <p>会后我们是否可以向您发送简版说明和合作意向函草案</p>
+              <p data-i18n="check4">如果继续推进，后续材料应如何整理得更清楚、也更尊重贵方节奏。</p>
             </article>
           </div>
 
           <div class="closing-panel">
-            <p class="closing-line">
+            <p class="closing-line" data-i18n="closingLine1">
               我们希望这个项目建立在真实的工艺理解和文化尊重之上，而不是停留在“把非遗元素做成视觉效果”的层面。
             </p>
-            <p class="closing-line subtle">
+            <p class="closing-line subtle" data-i18n="closingLine2">
               如果贵方愿意继续沟通，我们会把后续材料整理得尽量简洁、清楚、尊重沟通节奏。
             </p>
           </div>
 
-          <div class="speaker-note">
-            提示：
-            这页结尾不要再扩展太多，顺势进入提问和记录。面谈的理想结果是“原则同意 + 允许继续发材料”。
+          <div class="speaker-note" data-i18n="noteNext">
+            结尾不要急着要答复，重点是确认方向、留下后续沟通空间，并让对方感觉轻松而被尊重。
           </div>
         </div>
       </section>
@@ -385,10 +457,10 @@
     </div>
 
     <div class="deck-controls">
-      <button type="button" class="control-button" id="prevButton">이전 Prev</button>
-      <button type="button" class="control-button primary" id="nextButton">다음 Next</button>
+      <button type="button" class="control-button" id="prevButton">上一页</button>
+      <button type="button" class="control-button primary" id="nextButton">下一页</button>
     </div>
 
-    <script src="./script.js?v=20260420b"></script>
+    <script src="./script.js?v=20260420c"></script>
   </body>
 </html>
