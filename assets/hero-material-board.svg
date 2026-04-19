@@ -1,0 +1,54 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#F2E8D7"/>
+  <rect x="34" y="34" width="1132" height="832" rx="34" fill="#F8F1E5" stroke="#C8B38A" stroke-width="2"/>
+  <rect x="78" y="86" width="430" height="728" rx="30" fill="#E7D4B2"/>
+  <rect x="100" y="108" width="386" height="684" rx="22" fill="#EEDFC4"/>
+  <path d="M118 150H468" stroke="#B79867" stroke-width="2" stroke-opacity="0.4"/>
+  <path d="M118 210H468" stroke="#B79867" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M118 270H468" stroke="#B79867" stroke-width="2" stroke-opacity="0.4"/>
+  <path d="M118 330H468" stroke="#B79867" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M118 390H468" stroke="#B79867" stroke-width="2" stroke-opacity="0.4"/>
+  <path d="M118 450H468" stroke="#B79867" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M118 510H468" stroke="#B79867" stroke-width="2" stroke-opacity="0.4"/>
+  <path d="M118 570H468" stroke="#B79867" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M118 630H468" stroke="#B79867" stroke-width="2" stroke-opacity="0.4"/>
+  <path d="M118 690H468" stroke="#B79867" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M150 128V772" stroke="#C19E6C" stroke-width="2" stroke-opacity="0.25"/>
+  <path d="M210 128V772" stroke="#C19E6C" stroke-width="2" stroke-opacity="0.25"/>
+  <path d="M270 128V772" stroke="#C19E6C" stroke-width="2" stroke-opacity="0.25"/>
+  <path d="M330 128V772" stroke="#C19E6C" stroke-width="2" stroke-opacity="0.25"/>
+  <path d="M390 128V772" stroke="#C19E6C" stroke-width="2" stroke-opacity="0.25"/>
+  <path d="M450 128V772" stroke="#C19E6C" stroke-width="2" stroke-opacity="0.25"/>
+  <path d="M184 246C230 218 279 240 319 290C351 330 393 344 444 314" stroke="#8F4B2C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M182 478C238 414 297 432 348 506C379 551 411 573 450 560" stroke="#6D6449" stroke-width="8" stroke-linecap="round"/>
+  <path d="M178 622C223 600 262 604 301 646C332 680 372 698 438 692" stroke="#A05D39" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="237" cy="255" r="15" fill="#C78356"/>
+  <circle cx="296" cy="283" r="15" fill="#C78356"/>
+  <circle cx="364" cy="324" r="15" fill="#C78356"/>
+  <circle cx="253" cy="457" r="14" fill="#807752"/>
+  <circle cx="321" cy="485" r="14" fill="#807752"/>
+  <circle cx="397" cy="553" r="14" fill="#807752"/>
+  <circle cx="228" cy="613" r="15" fill="#9A5C37"/>
+  <circle cx="286" cy="630" r="15" fill="#9A5C37"/>
+  <circle cx="353" cy="675" r="15" fill="#9A5C37"/>
+  <rect x="560" y="86" width="562" height="224" rx="28" fill="#FAF3E7"/>
+  <rect x="560" y="340" width="270" height="228" rx="28" fill="#FAF3E7"/>
+  <rect x="852" y="340" width="270" height="228" rx="28" fill="#FAF3E7"/>
+  <rect x="560" y="592" width="562" height="222" rx="28" fill="#FAF3E7"/>
+  <text x="596" y="152" fill="#392A17" font-family="'Microsoft YaHei', sans-serif" font-size="34" font-weight="700">材料与工艺视觉板</text>
+  <text x="596" y="198" fill="#725F43" font-family="'Microsoft YaHei', sans-serif" font-size="22">用于网页展示的示意图，可替换为真实照片</text>
+  <text x="596" y="250" fill="#8F4B2C" font-family="'Microsoft YaHei', sans-serif" font-size="26" font-weight="700">建议替换为：</text>
+  <text x="620" y="292" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="24">• 夏布绣局部细节照片</text>
+  <text x="620" y="328" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="24">• 样布/针法/纹理特写</text>
+  <text x="596" y="402" fill="#392A17" font-family="'Microsoft YaHei', sans-serif" font-size="28" font-weight="700">工艺重点</text>
+  <text x="596" y="450" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="22">布性</text>
+  <text x="596" y="486" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="22">针法节奏</text>
+  <text x="596" y="522" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="22">留白关系</text>
+  <text x="886" y="402" fill="#392A17" font-family="'Microsoft YaHei', sans-serif" font-size="28" font-weight="700">文化重点</text>
+  <text x="886" y="450" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="22">地域气质</text>
+  <text x="886" y="486" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="22">题材语义</text>
+  <text x="886" y="522" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="22">真实性校核</text>
+  <text x="596" y="652" fill="#392A17" font-family="'Microsoft YaHei', sans-serif" font-size="30" font-weight="700">现场建议</text>
+  <text x="596" y="700" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="23">把这张板替换成“1张细节 + 1张工作室 + 1张样布”最合适。</text>
+  <text x="596" y="738" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="23">即使暂时没有真实照片，也可先作为结构化视觉页使用。</text>
+</svg>

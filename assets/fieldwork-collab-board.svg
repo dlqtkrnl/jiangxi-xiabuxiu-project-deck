@@ -1,0 +1,23 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#F3E9D8"/>
+  <rect x="42" y="42" width="1116" height="816" rx="34" fill="#FBF4E8" stroke="#C9B28A" stroke-width="2"/>
+  <text x="82" y="120" fill="#302517" font-family="'Microsoft YaHei', sans-serif" font-size="38" font-weight="700">田野与合作展示板</text>
+  <text x="82" y="166" fill="#705E46" font-family="'Microsoft YaHei', sans-serif" font-size="22">可替换为：工作室合影、田野点位照片、专家示范现场图</text>
+  <rect x="82" y="214" width="494" height="592" rx="30" fill="#EFE0C4"/>
+  <rect x="624" y="214" width="494" height="282" rx="30" fill="#E7D5B7"/>
+  <rect x="624" y="524" width="494" height="282" rx="30" fill="#F2E5D0"/>
+  <circle cx="232" cy="392" r="82" fill="#D7C19A"/>
+  <circle cx="402" cy="392" r="82" fill="#D2BA91"/>
+  <path d="M146 548C172 488 292 488 318 548V682H146V548Z" fill="#8F4B2C"/>
+  <path d="M316 548C342 488 462 488 488 548V682H316V548Z" fill="#70684A"/>
+  <path d="M214 432C236 458 256 496 260 540" stroke="#F7E7D2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M390 432C412 458 432 496 436 540" stroke="#EEE2C9" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="758" cy="328" r="38" fill="#C78659"/>
+  <circle cx="846" cy="328" r="38" fill="#C78659"/>
+  <circle cx="934" cy="328" r="38" fill="#C78659"/>
+  <rect x="700" y="402" width="282" height="26" rx="13" fill="#8A8362"/>
+  <rect x="694" y="620" width="354" height="32" rx="16" fill="#9A5D38"/>
+  <text x="102" y="736" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="24">建议替换：与专家交流 / 示范现场 / 工作室环境</text>
+  <text x="662" y="456" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="24">建议替换：田野点位 / 馆藏 / 样本采集</text>
+  <text x="662" y="684" fill="#5B4B33" font-family="'Microsoft YaHei', sans-serif" font-size="24">建议替换：工作坊 / 样布指导 / 中期评图</text>
+</svg>

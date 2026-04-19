@@ -1,0 +1,30 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#F6EDDF"/>
+  <rect x="44" y="44" width="1112" height="812" rx="32" fill="#FBF5EB" stroke="#CBB38C" stroke-width="2"/>
+  <text x="82" y="124" fill="#2F2416" font-family="'Microsoft YaHei', sans-serif" font-size="38" font-weight="700">系列作品方向板</text>
+  <text x="82" y="170" fill="#705E46" font-family="'Microsoft YaHei', sans-serif" font-size="22">当前为示意图，可替换为你的真实作品图、草图或概念板</text>
+  <rect x="82" y="214" width="320" height="546" rx="30" fill="#EFE1C8"/>
+  <rect x="440" y="214" width="320" height="546" rx="30" fill="#E6D3B3"/>
+  <rect x="798" y="214" width="320" height="546" rx="30" fill="#F1E7D5"/>
+  <ellipse cx="242" cy="314" rx="58" ry="70" fill="#D9C29A"/>
+  <path d="M202 394C217 372 267 372 282 394L309 454C319 476 303 498 276 498H208C181 498 165 476 175 454L202 394Z" fill="#8F4B2C"/>
+  <path d="M168 504C202 470 282 470 316 504V654C316 704 285 742 242 742C199 742 168 704 168 654V504Z" fill="#A96239"/>
+  <path d="M214 522C239 502 266 516 281 553" stroke="#F7E6D0" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="226" cy="580" r="12" fill="#F4DABF"/>
+  <circle cx="255" cy="612" r="12" fill="#F4DABF"/>
+  <ellipse cx="600" cy="314" rx="58" ry="70" fill="#D7C39B"/>
+  <path d="M560 394C575 372 625 372 640 394L667 454C677 476 661 498 634 498H566C539 498 523 476 533 454L560 394Z" fill="#70684A"/>
+  <path d="M526 504C560 470 640 470 674 504V654C674 704 643 742 600 742C557 742 526 704 526 654V504Z" fill="#8A8362"/>
+  <path d="M550 554C576 529 611 525 647 563" stroke="#EEE2C9" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="585" cy="594" r="12" fill="#EEE2C9"/>
+  <circle cx="625" cy="631" r="12" fill="#EEE2C9"/>
+  <ellipse cx="958" cy="314" rx="58" ry="70" fill="#E0CCAF"/>
+  <path d="M918 394C933 372 983 372 998 394L1025 454C1035 476 1019 498 992 498H924C897 498 881 476 891 454L918 394Z" fill="#96603A"/>
+  <path d="M884 504C918 470 998 470 1032 504V654C1032 704 1001 742 958 742C915 742 884 704 884 654V504Z" fill="#C08352"/>
+  <path d="M912 562C940 536 982 540 1010 587" stroke="#FAE9D7" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="950" cy="610" r="12" fill="#FAE9D7"/>
+  <circle cx="989" cy="648" r="12" fill="#FAE9D7"/>
+  <text x="126" y="800" fill="#5C4B33" font-family="'Microsoft YaHei', sans-serif" font-size="24">方向 A：工艺主体</text>
+  <text x="484" y="800" fill="#5C4B33" font-family="'Microsoft YaHei', sans-serif" font-size="24">方向 B：材料与留白</text>
+  <text x="842" y="800" fill="#5C4B33" font-family="'Microsoft YaHei', sans-serif" font-size="24">方向 C：当代轮廓</text>
+</svg>
