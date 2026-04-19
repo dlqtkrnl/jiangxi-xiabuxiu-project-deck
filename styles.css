@@ -1,15 +1,15 @@
 :root {
-  --bg: #efe7d7;
-  --bg-strong: #e3d5ba;
-  --panel: rgba(255, 250, 241, 0.8);
-  --panel-strong: rgba(252, 245, 233, 0.96);
-  --line: rgba(103, 74, 31, 0.16);
-  --ink: #2d2417;
-  --muted: #6f6048;
-  --accent: #8f4b2c;
-  --accent-soft: #c68d5c;
-  --olive: #70684a;
-  --shadow: 0 18px 45px rgba(73, 49, 18, 0.12);
+  --bg: #f6f3ec;
+  --bg-strong: #ece4d6;
+  --panel: rgba(255, 255, 255, 0.84);
+  --panel-strong: rgba(255, 255, 255, 0.96);
+  --line: rgba(72, 56, 31, 0.12);
+  --ink: #231c14;
+  --muted: #5d5243;
+  --accent: #7f4a2d;
+  --accent-soft: #b97c53;
+  --olive: #5e5b49;
+  --shadow: 0 14px 34px rgba(50, 36, 17, 0.08);
   --radius-xl: 32px;
   --radius-lg: 24px;
   --radius-md: 18px;
@@ -28,14 +28,18 @@ html {
 
 body {
   margin: 0;
-  font-family: "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC",
+  font-family: "Pretendard Variable", "Pretendard", "Inter", "Noto Sans KR",
+    "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC",
     "Microsoft YaHei", sans-serif;
+  font-size: 16.5px;
   color: var(--ink);
   background:
-    radial-gradient(circle at top left, rgba(255, 250, 244, 0.8), transparent 34%),
-    linear-gradient(160deg, #f5eee1 0%, #eee3cf 42%, #e2d3b8 100%);
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.86), transparent 30%),
+    linear-gradient(160deg, #f7f4ee 0%, #f2ece3 48%, #e8dece 100%);
   min-height: 100vh;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 .texture {
@@ -47,17 +51,17 @@ body {
 
 .texture-a {
   background-image:
-    linear-gradient(rgba(173, 142, 98, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(173, 142, 98, 0.04) 1px, transparent 1px);
-  background-size: 28px 28px;
-  opacity: 0.5;
+    linear-gradient(rgba(173, 142, 98, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(173, 142, 98, 0.02) 1px, transparent 1px);
+  background-size: 34px 34px;
+  opacity: 0.24;
 }
 
 .texture-b {
   background:
-    radial-gradient(circle at 15% 12%, rgba(143, 75, 44, 0.12), transparent 18%),
-    radial-gradient(circle at 86% 20%, rgba(112, 104, 74, 0.12), transparent 16%),
-    radial-gradient(circle at 75% 84%, rgba(198, 141, 92, 0.16), transparent 18%);
+    radial-gradient(circle at 15% 12%, rgba(127, 74, 45, 0.08), transparent 18%),
+    radial-gradient(circle at 86% 20%, rgba(94, 91, 73, 0.06), transparent 16%),
+    radial-gradient(circle at 75% 84%, rgba(185, 124, 83, 0.09), transparent 18%);
 }
 
 .topbar {
@@ -71,8 +75,8 @@ body {
   justify-content: space-between;
   padding: 18px 28px 18px 32px;
   backdrop-filter: blur(14px);
-  background: rgba(247, 241, 229, 0.65);
-  border-bottom: 1px solid rgba(106, 77, 34, 0.09);
+  background: rgba(249, 246, 239, 0.84);
+  border-bottom: 1px solid rgba(96, 68, 30, 0.08);
   z-index: 20;
 }
 
@@ -90,11 +94,12 @@ body {
   height: 62px;
   border-radius: 20px;
   background:
-    linear-gradient(150deg, rgba(143, 75, 44, 0.9), rgba(91, 57, 27, 0.94));
-  color: #f7f0e3;
-  font-family: "Source Han Serif SC", "Noto Serif CJK SC", "STSong", serif;
+    linear-gradient(150deg, rgba(127, 74, 45, 0.94), rgba(96, 58, 32, 0.98));
+  color: #f8f3eb;
+  font-family: "Inter", "Pretendard Variable", "Pretendard", sans-serif;
   font-size: 0.95rem;
-  letter-spacing: 0.12em;
+  font-weight: 700;
+  letter-spacing: 0.14em;
   box-shadow: var(--shadow);
 }
 
@@ -102,13 +107,12 @@ body {
   margin: 0 0 4px;
   color: var(--muted);
   font-size: 0.76rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .brand h1 {
   margin: 0;
-  font-size: 1.12rem;
+  font-size: 1.14rem;
   font-weight: 700;
 }
 
@@ -122,7 +126,7 @@ body {
   appearance: none;
   border: 1px solid rgba(113, 84, 44, 0.18);
   border-radius: 999px;
-  background: rgba(255, 249, 240, 0.72);
+  background: rgba(255, 255, 255, 0.88);
   color: var(--ink);
   cursor: pointer;
   transition: transform var(--transition), background var(--transition),
@@ -131,7 +135,8 @@ body {
 
 .ghost-button {
   padding: 12px 18px;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
+  font-weight: 600;
 }
 
 .ghost-button:hover,
@@ -147,7 +152,7 @@ body {
   width: var(--side-w);
   padding: 18px 14px;
   border-radius: 28px;
-  background: rgba(255, 250, 241, 0.72);
+  background: rgba(255, 255, 255, 0.84);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
   backdrop-filter: blur(12px);
@@ -161,7 +166,8 @@ body {
   border-radius: 14px;
   color: var(--muted);
   text-decoration: none;
-  font-size: 0.92rem;
+  font-size: 0.93rem;
+  font-weight: 500;
   transition: background var(--transition), color var(--transition),
     transform var(--transition);
 }
@@ -193,8 +199,8 @@ body {
   margin: 0 auto;
   padding: clamp(28px, 4vw, 52px);
   border-radius: clamp(28px, 4vw, 42px);
-  background: linear-gradient(180deg, var(--panel-strong), rgba(250, 244, 233, 0.88));
-  border: 1px solid rgba(105, 76, 37, 0.1);
+  background: linear-gradient(180deg, var(--panel-strong), rgba(252, 249, 244, 0.98));
+  border: 1px solid rgba(105, 76, 37, 0.08);
   box-shadow: var(--shadow);
   position: relative;
   overflow: hidden;
@@ -207,37 +213,40 @@ body {
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(198, 141, 92, 0.18), transparent 70%);
+  background: radial-gradient(circle, rgba(185, 124, 83, 0.12), transparent 70%);
 }
 
 .eyebrow {
   margin: 0 0 10px;
   color: var(--accent);
-  font-size: 0.88rem;
-  letter-spacing: 0.22em;
+  font-size: 0.83rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
 h2,
 h3 {
-  font-family: "Source Han Serif SC", "Noto Serif CJK SC", "STSong", serif;
+  font-family: "Noto Serif KR", "Source Han Serif SC", "Noto Serif CJK SC",
+    "Georgia", "STSong", serif;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.22;
   margin: 0;
 }
 
 h2 {
-  font-size: clamp(2rem, 3.6vw, 3.7rem);
+  font-size: clamp(2rem, 3.2vw, 3.45rem);
   max-width: 16ch;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.24rem;
   margin-bottom: 14px;
 }
 
 p {
-  line-height: 1.8;
+  line-height: 1.78;
+  color: var(--muted);
 }
 
 .hero-slide .slide-inner {
@@ -262,7 +271,7 @@ p {
   margin: 0 0 28px;
   font-size: 1.08rem;
   max-width: 55ch;
-  color: var(--muted);
+  color: #463b2f;
 }
 
 .hero-copy span {
@@ -282,8 +291,8 @@ p {
   align-items: center;
   padding: 10px 14px;
   border-radius: 999px;
-  background: rgba(112, 104, 74, 0.08);
-  border: 1px solid rgba(112, 104, 74, 0.12);
+  background: rgba(116, 101, 76, 0.07);
+  border: 1px solid rgba(116, 101, 76, 0.1);
   font-size: 0.92rem;
 }
 
@@ -293,8 +302,8 @@ p {
   align-items: center;
   padding: 12px 18px;
   border-radius: 999px;
-  background: rgba(143, 75, 44, 0.1);
-  border: 1px solid rgba(143, 75, 44, 0.16);
+  background: rgba(127, 74, 45, 0.08);
+  border: 1px solid rgba(127, 74, 45, 0.14);
   color: var(--accent);
   font-weight: 600;
 }
@@ -315,9 +324,9 @@ p {
 .path-card,
 .principle-card,
 .check-card {
-  background: rgba(255, 250, 243, 0.94);
-  border: 1px solid rgba(100, 74, 36, 0.1);
-  box-shadow: 0 10px 30px rgba(89, 62, 24, 0.07);
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(100, 74, 36, 0.08);
+  box-shadow: 0 10px 24px rgba(89, 62, 24, 0.05);
 }
 
 .stat-card {
@@ -351,9 +360,9 @@ p {
 .image-frame {
   margin: 0;
   border-radius: 26px;
-  background: rgba(255, 250, 243, 0.96);
-  border: 1px solid rgba(100, 74, 36, 0.1);
-  box-shadow: 0 10px 30px rgba(89, 62, 24, 0.07);
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(100, 74, 36, 0.08);
+  box-shadow: 0 10px 24px rgba(89, 62, 24, 0.05);
   overflow: hidden;
 }
 
@@ -390,13 +399,15 @@ p {
 
 .quote-band {
   margin-top: 30px;
-  background: linear-gradient(135deg, rgba(143, 75, 44, 0.12), rgba(112, 104, 74, 0.08));
+  background: linear-gradient(135deg, rgba(127, 74, 45, 0.08), rgba(94, 91, 73, 0.05));
 }
 
 .quote-band p {
   margin: 0;
   font-size: 1.15rem;
-  font-family: "Source Han Serif SC", "Noto Serif CJK SC", "STSong", serif;
+  font-family: "Noto Serif KR", "Source Han Serif SC", "Noto Serif CJK SC",
+    "Georgia", serif;
+  color: var(--ink);
 }
 
 .two-column,
@@ -421,11 +432,11 @@ p {
 .accent-card,
 .solution-card,
 .commitment-card {
-  background: linear-gradient(160deg, rgba(239, 226, 203, 0.95), rgba(247, 240, 228, 0.95));
+  background: linear-gradient(160deg, rgba(251, 247, 240, 0.98), rgba(247, 242, 234, 0.98));
 }
 
 .problem-card {
-  background: linear-gradient(160deg, rgba(249, 239, 230, 0.95), rgba(255, 249, 243, 0.95));
+  background: linear-gradient(160deg, rgba(252, 247, 241, 0.98), rgba(255, 252, 248, 0.98));
 }
 
 .feature-list {
@@ -480,7 +491,7 @@ p {
 }
 
 .path-card.highlighted {
-  background: linear-gradient(160deg, rgba(143, 75, 44, 0.94), rgba(104, 64, 30, 0.96));
+  background: linear-gradient(160deg, rgba(116, 68, 45, 0.95), rgba(90, 57, 33, 0.98));
   color: #fbf2e6;
 }
 
@@ -508,8 +519,8 @@ p {
 .mini-timeline div {
   padding: 16px 18px;
   border-radius: 18px;
-  background: rgba(112, 104, 74, 0.06);
-  border: 1px solid rgba(112, 104, 74, 0.09);
+  background: rgba(116, 101, 76, 0.05);
+  border: 1px solid rgba(116, 101, 76, 0.08);
 }
 
 .mini-timeline strong {
@@ -535,8 +546,8 @@ p {
 
 .banner-note {
   margin-top: 22px;
-  background: linear-gradient(135deg, rgba(112, 104, 74, 0.1), rgba(143, 75, 44, 0.12));
-  border: 1px solid rgba(100, 74, 36, 0.12);
+  background: linear-gradient(135deg, rgba(116, 101, 76, 0.07), rgba(127, 74, 45, 0.08));
+  border: 1px solid rgba(100, 74, 36, 0.1);
 }
 
 .check-grid {
@@ -551,7 +562,7 @@ p {
 
 .closing-panel {
   margin-top: 24px;
-  background: linear-gradient(150deg, rgba(143, 75, 44, 0.92), rgba(92, 61, 32, 0.96));
+  background: linear-gradient(150deg, rgba(114, 70, 49, 0.95), rgba(76, 53, 36, 0.98));
   color: #fff4e7;
 }
 
@@ -573,7 +584,7 @@ p {
   padding: 14px 18px;
   border-left: 4px solid rgba(143, 75, 44, 0.7);
   border-radius: 14px;
-  background: rgba(255, 247, 234, 0.9);
+  background: rgba(252, 247, 239, 0.94);
   color: var(--muted);
   font-size: 0.95rem;
 }

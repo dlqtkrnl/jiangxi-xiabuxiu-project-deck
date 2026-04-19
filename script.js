@@ -37,22 +37,24 @@ prevButton.addEventListener("click", () => scrollToSlide(currentIndex - 1));
 notesButton.addEventListener("click", () => {
   document.body.classList.toggle("notes-on");
   notesButton.textContent = document.body.classList.contains("notes-on")
-    ? "关闭备注"
-    : "演讲备注";
+    ? "노트 닫기 Hide Notes"
+    : "노트 Notes";
 });
 
 fullscreenButton.addEventListener("click", async () => {
   if (!document.fullscreenElement) {
     await document.documentElement.requestFullscreen();
-    fullscreenButton.textContent = "退出全屏";
+    fullscreenButton.textContent = "전체화면 종료 Exit Fullscreen";
   } else {
     await document.exitFullscreen();
-    fullscreenButton.textContent = "全屏";
+    fullscreenButton.textContent = "전체화면 Fullscreen";
   }
 });
 
 document.addEventListener("fullscreenchange", () => {
-  fullscreenButton.textContent = document.fullscreenElement ? "退出全屏" : "全屏";
+  fullscreenButton.textContent = document.fullscreenElement
+    ? "전체화면 종료 Exit Fullscreen"
+    : "전체화면 Fullscreen";
 });
 
 document.addEventListener("keydown", (event) => {
