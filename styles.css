@@ -1152,17 +1152,34 @@ p,
 }
 
 .hero-slide .slide-inner::before {
-  content: "XIABU";
+  content: "夏布绣";
   position: absolute;
   left: -6px;
   top: 48px;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
   font-size: clamp(7rem, 22vw, 18rem);
-  line-height: 0.82;
-  letter-spacing: -0.08em;
+  font-weight: 500;
+  line-height: 0.92;
+  letter-spacing: -0.06em;
   color: var(--accent);
   z-index: 0;
   pointer-events: none;
+}
+
+body[data-lang="en"] .hero-slide .slide-inner::before {
+  content: "XIABU";
+  font-family: "Inter", Arial, sans-serif;
+  line-height: 0.82;
+  letter-spacing: -0.08em;
+}
+
+body[data-lang="ko"] .hero-slide .slide-inner::before {
+  content: "하포수";
+  font-family: "Pretendard Variable", "Pretendard", "Noto Sans KR",
+    "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
 }
 
 .hero-slide .slide-inner::after {
