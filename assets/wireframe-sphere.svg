@@ -1,0 +1,25 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.42" stroke="#111111" stroke-width="1.2">
+    <circle cx="450" cy="450" r="330"/>
+    <ellipse cx="450" cy="450" rx="330" ry="305"/>
+    <ellipse cx="450" cy="450" rx="330" ry="275"/>
+    <ellipse cx="450" cy="450" rx="330" ry="240"/>
+    <ellipse cx="450" cy="450" rx="330" ry="195"/>
+    <ellipse cx="450" cy="450" rx="330" ry="145"/>
+    <ellipse cx="450" cy="450" rx="330" ry="92"/>
+    <ellipse cx="450" cy="450" rx="330" ry="46"/>
+    <ellipse cx="450" cy="450" rx="305" ry="330" transform="rotate(90 450 450)"/>
+    <ellipse cx="450" cy="450" rx="275" ry="330" transform="rotate(90 450 450)"/>
+    <ellipse cx="450" cy="450" rx="240" ry="330" transform="rotate(90 450 450)"/>
+    <ellipse cx="450" cy="450" rx="195" ry="330" transform="rotate(90 450 450)"/>
+    <ellipse cx="450" cy="450" rx="145" ry="330" transform="rotate(90 450 450)"/>
+    <ellipse cx="450" cy="450" rx="92" ry="330" transform="rotate(90 450 450)"/>
+    <ellipse cx="450" cy="450" rx="46" ry="330" transform="rotate(90 450 450)"/>
+    <ellipse cx="450" cy="450" rx="330" ry="210" transform="rotate(22.5 450 450)"/>
+    <ellipse cx="450" cy="450" rx="330" ry="210" transform="rotate(-22.5 450 450)"/>
+    <ellipse cx="450" cy="450" rx="330" ry="160" transform="rotate(45 450 450)"/>
+    <ellipse cx="450" cy="450" rx="330" ry="160" transform="rotate(-45 450 450)"/>
+    <ellipse cx="450" cy="450" rx="330" ry="120" transform="rotate(67.5 450 450)"/>
+    <ellipse cx="450" cy="450" rx="330" ry="120" transform="rotate(-67.5 450 450)"/>
+  </g>
+</svg>
